@@ -1,0 +1,158 @@
+body{
+  background-color: #02010a;
+}
+
+/*para desktop */
+@media only screen and (min-width: 900px) {
+  .contenido{
+    width: 900px;
+  }
+  .cajafotos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+    h2{
+    color: white;
+    text-shadow: 2px #02010a;
+    font-family: 'dancing script';
+    font-style: oblique;
+    font-size: 350%;
+    text-align: left;
+    }
+}
+
+/*para moviles */
+@media only screen and (max-width: 900px) {
+  .contenido{
+    width: 100%;
+  }
+
+  a:link
+  {
+  margin: 5px;
+  padding: 20px;
+  float: right;
+  }
+
+  h2{
+  color: white;
+  text-shadow: 2px #02010a;
+  font-family: 'dancing script';
+  font-style: oblique;
+  font-size: 200%;
+  text-align: center;
+}
+
+}
+
+.cabecera{
+  width: 100%;
+  height: 160px;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+}
+.paisaje a{
+	text-decoration: none;
+}
+a:link
+{
+margin: 5px;
+float: right;
+font-family: dancing script;
+font-size: 130%;
+}
+
+.img{
+  width: 100%;
+  box-shadow: 2px #02010a;
+}
+
+#bloque1 img
+{
+   width: 90%;
+   padding: 5%;
+}
+#bloque2 img
+{
+   width: 90%;
+   padding: 5%;
+
+}
+
+#primero img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  height: 40%;
+}
+
+.columna1, .columna2, .columna3{
+  background: #d5c75f;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+#img1{
+  filter: blur(10px);
+}
+
+#segundo img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  height: 40%;
+}
+
+
+#img2, #img4, #img6{
+  filter: grayscale(100%);
+}
+
+#tercero img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  height: 40%;
+}
+
+#img3{
+  filter: sepia(90%);
+}
+
+/*para moviles*/
+@media (max-width: 900px){
+
+  footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #C6d5c5;
+    border-radius: 0px 0px 10px 10px;
+  }
+}
+
+footer{
+  width: 100%;
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.uno{
+  width: 25%;
+  border-radius: 0px 0px 0px 10px;
+}
+.dos{
+  width: 25%;
+}
+.tres{
+  width: 25%;
+}
+.cuatro{
+  width: 25%;
+  border-radius: 0px 0px 10px 0px;
+}
